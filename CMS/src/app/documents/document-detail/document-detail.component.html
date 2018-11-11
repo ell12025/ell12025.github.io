@@ -1,0 +1,28 @@
+<div class="panel panel-default" xmlns="http://www.w3.org/1999/html">
+  <div class="panel-heading">
+    <div class="row pad-all">
+      <h4 class="title margin-left-right">{{document.name}}{{document.description}}</h4>
+      <div class="row pull-right margin-left-right" >
+        <a class="btn btn-primary document-button-padding" (click)="onView()">View</a>
+        <a class="btn btn-info document-button-padding" (click)="onEditDocument()">Edit</a>
+        <a class="btn btn-danger document-button-padding" (click)="onDelete()">Delete</a>
+      </div>
+    </div>
+  </div>
+  <div class="panel-body">
+    <div class="pad-left-right">
+      <div class="row">
+        <label>Description:</label>
+        <br>
+        <span class="label-value">{{document.description}}</span>
+      </div>
+      <br>
+      <div class="row">
+        <label>URL:</label>
+        <br>
+        <span class="label-value">{{document.url}}</span>
+      </div>
+    </div>
+  </div>
+</div>
+
