@@ -79,9 +79,9 @@ document.getElementById("calculate").onclick = function() {
     calculateTip();
 }
 
-function reset() {
-    document.getElementById("form").reset();
-}
+// function resetForm() {
+//     document.getElementById("form").reset();
+// }
 
 
 

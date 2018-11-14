@@ -130,9 +130,17 @@ select {
 
 #reset {
     background-color: darkred;
-    display: inline;
     float: right;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
     width: 48%;
+    color: white;
+    padding: 12px 0px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline;
 
 }
 
