@@ -10,7 +10,7 @@ function checkTotalBill() {
 //Check split input for data
 function checkSplit() {
     var split = document.getElementById("splitAmt").value;
-    if(isNaN(split) || split === "" || split <=0) {
+    if(split != Math.floor(split) || split === "" || split <=0) {
         document.getElementById("splitAmt").style.borderColor = "red";
     } else
         document.getElementById("splitAmt").style.borderColor = "green";
@@ -36,8 +36,9 @@ function checkTip() {
     $('form > input').keyup(function() {
 
         var empty = false;
+        var split = document.getElementById("splitAmt").value;
         $('form > input').each(function() {
-            if ($(this).val() == '' || $(this).val() == 0) {
+            if ($(this).val() === '' || $(this).val() <= 0 ||split != Math.floor(split)) {
                 empty = true;
             }
         });
@@ -77,5 +78,10 @@ document.getElementById("calculate").onclick = function() {
     checkTip();
     calculateTip();
 }
+
+function reset() {
+    document.getElementById("form").reset();
+}
+
 
 

@@ -19,31 +19,37 @@
             <span id="tip">$0.00</span>
         </div>
 
-
-
-        <input type="text"
+        <label for="totalAmt">Total Bill Amount</label>
+        <input type="number"
                id="totalAmt"
                name="totalBill"
-               placeholder="Total bill"
+               placeholder="0.00"
                onchange="checkTotalBill()"
                required>
 
-        <input type="text"
+        <label for="splitAmt">Number of Payers</label>
+        <input type="number"
                id="splitAmt"
                name="splitting"
-               placeholder="Number of payers"
+               placeholder="0"
                onchange="checkSplit()"
                required>
 
+        <label for="percentage">Desired Tip Percentage</label>
         <select id="percentage" onchange="checkTip()" required>
-            <option disabled selected value="">Select desired tip</option>
+            <option disabled selected value="">Select</option>
             <option value="0.20">20% - Great</option>
             <option value="0.15">15% - Standard</option>
             <option value="0.10">10% - Descent</option>
             <option value="0.05">5% - Poor</option>
         </select>
 
-        <input type="button" value="GO" id="calculate" disabled>
+        <div id="buttons">
+            <input type="button" value="GO" id="calculate" disabled>
+            <input type="button" value="RESET" id="reset" onclick="reset()">
+
+        </div>
+
     </form>
 
 </div>
