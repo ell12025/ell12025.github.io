@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+<div id="container">
+
+
+    <form id="form">
+        <h1>Tip Calculator</h1>
+
+
+        <div id="totalTip">
+            <span id="tip">$0.00</span>
+        </div>
+
+
+
+        <input type="text"
+               id="totalAmt"
+               name="totalBill"
+               placeholder="Total bill"
+               onchange="checkTotalBill()"
+               required>
+
+        <input type="text"
+               id="splitAmt"
+               name="splitting"
+               placeholder="Number of payers"
+               onchange="checkSplit()"
+               required>
+
+        <select id="percentage" onchange="checkTip()" required>
+            <option disabled selected value="">Select desired tip</option>
+            <option value="0.20">20% - Great</option>
+            <option value="0.15">15% - Standard</option>
+            <option value="0.10">10% - Descent</option>
+            <option value="0.05">5% - Poor</option>
+        </select>
+
+        <input type="button" value="GO" id="calculate" disabled>
+    </form>
+
+</div>
+<script type="text/javascript" src="js/scripts.js"></script>
+
+</body>
+</html>
