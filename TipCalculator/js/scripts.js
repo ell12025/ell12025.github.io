@@ -25,12 +25,13 @@ function checkTip() {
 
     } else
         document.getElementById("percentage").style.borderColor = "green";
-    document.getElementById("percentage").style.color = "black";
+        document.getElementById("percentage").style.color = "black";
 
 }
 
 
-//Disable the calculate button is inputs equal 0 or are left blank.
+//Disable the calculate button if inputs are blank, 0, or split contains a decimal number.
+// And if selection box is empty.
 //Source: StackExchange.com
 (function() {
     $('form > input').keyup(function() {
@@ -38,18 +39,29 @@ function checkTip() {
         var empty = false;
         var split = document.getElementById("splitAmt").value;
         $('form > input').each(function() {
-            if ($(this).val() === '' || $(this).val() <= 0 ||split != Math.floor(split)) {
+            if ($(this).val() === '' || $(this).val() <= 0 || split != Math.floor(split)) {
                 empty = true;
             }
         });
-
         if (empty) {
             $('#calculate').attr('disabled', 'disabled');
-        } else {
+
+        }
+        else {
             $('#calculate').removeAttr('disabled');
+
+
+
         }
     });
-})()
+})();
+
+
+
+
+
+
+
 
 
 //Get tip amount
@@ -82,6 +94,7 @@ document.getElementById("calculate").onclick = function() {
 // function resetForm() {
 //     document.getElementById("form").reset();
 // }
+
 
 
 
