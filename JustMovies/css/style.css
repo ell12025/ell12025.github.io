@@ -1,0 +1,141 @@
+body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #111;
+}
+h3, h4 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px;
+    font-size: 20px;
+    color: #111;
+}
+.container {
+    padding: 80px 120px;
+}
+
+.container-lg {
+    padding: 30px 200px;
+}
+
+div.col-md-4 {
+    width: 550px;
+}
+.row {
+    align-content: center;
+    margin-top: 40px;
+}
+
+#img {
+    float: left;
+    width: 185px;
+    height: 278px;
+    margin-right: 20px;
+}
+
+
+@media (max-width: 600px) {
+}
+
+#welcome {
+    background-position: -40px -500px;
+    background-image: url("https://www.themoviedb.org/assets/1/v4/account_pipes/purple-63b164a075461641b7ef444ea97d9787adf45a9552fe215e20063e3ff02491a8.svg");
+    background-color: white;
+
+}
+
+p#title {
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 1.1em;
+    line-height: 1.1em;
+    text-align: left;
+    letter-spacing: 0.05em;
+}
+
+#overview {
+    color: #5E5D54;
+    margin-top: 40px;
+    margin-right: 20px;
+    text-align: left;
+    font-size: 0.9em;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 1.2em;
+    -webkit-line-clamp: 5; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.bg-1 {
+    background: white;
+    color: #111;
+    padding-top: 10px;
+}
+.bg-1 h3 {color: #fff;}
+
+.thumbnail {
+    height: 278px;
+    border: none;
+    padding: 0px;
+    border-radius: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: rgba(8, 28, 36, 1);
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+}
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+.open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+}
+.dropdown-menu li a {
+    color: #000 !important;
+}
+.dropdown-menu li a:hover {
+    background-color: red !important;
+}
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+}
+footer a {
+    color: #f5f5f5;
+}
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
+
