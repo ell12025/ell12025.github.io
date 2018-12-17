@@ -1,17 +1,16 @@
 // API provided by https://www.themoviedb.org
 
-var HttpClient = function() {
+var HttpClient = function(){
     this.get = function(aUrl, aCallback) {
         var anHttpRequest = new XMLHttpRequest();
-        anHttpRequest.onreadystatechange = function() {
-            if (anHttpRequest.readyState == 4 && anHttpRequest.status == 200)
-                aCallback(anHttpRequest.responseText);
-        }
+        anHttpRequest.onload = function() {
+           aCallback(anHttpRequest.responseText);
+        };
 
         anHttpRequest.open("GET", aUrl, true);
         anHttpRequest.send(null);
     }
-}
+};
 
 
 var theUrl = "https://api.themoviedb.org/3/discover/movie?page=";
@@ -19,7 +18,7 @@ var pageNumber;
 var apiKey = "&api_key=f1373bd93c1779606f6eb28ecb5d54a9";
 var client = new HttpClient();
 for (pageNumber = 1; pageNumber < 10; pageNumber++) {
-    client.get(theUrl + pageNumber + apiKey, function(response) {
+    client.get(theUrl + pageNumber.toString() + apiKey, function(response) {
         var i;
         var response1 = JSON.parse(response);
         var base_url = "https://image.tmdb.org/t/p/w500/";

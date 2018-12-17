@@ -7,7 +7,7 @@
 
 (function($){
 
-    $(document).ready(function() {
+    $(window).load(function() {
 
         $(".pagination").customPaginate({
             itemsToPaginate : ".col-md-4",

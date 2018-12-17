@@ -55,7 +55,5 @@
                 itemsToShow.show();
 
             });
-
         }
-
 }(jQuery));
