@@ -4,7 +4,7 @@ var HttpClient = function(){
     this.get = function(aUrl, aCallback) {
         var anHttpRequest = new XMLHttpRequest();
         anHttpRequest.onload = function() {
-           aCallback(anHttpRequest.responseText);
+            aCallback(anHttpRequest.responseText);
         };
 
         anHttpRequest.open("GET", aUrl, true);

@@ -38,8 +38,9 @@ function checkTip() {
 
         var empty = false;
         var split = document.getElementById("splitAmt").value;
+        var tip = document.getElementById("percentage").value;
         $('form > input').each(function() {
-            if ($(this).val() === '' || $(this).val() <= 0 || split != Math.floor(split)) {
+            if ($(this).val() === '' || $(this).val() <= 0 || split != Math.floor(split) || tip === undefined) {
                 empty = true;
             }
         });
