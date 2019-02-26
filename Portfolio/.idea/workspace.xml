@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="711">
-              <caret line="178" column="51" selection-start-line="178" selection-start-column="51" selection-end-line="178" selection-end-column="51" />
+            <state relative-caret-position="369">
+              <caret line="200" column="74" selection-start-line="200" selection-start-column="74" selection-end-line="200" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -26,26 +26,12 @@
       <file leaf-file-name="chips.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chips.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="96" column="131" lean-forward="true" selection-start-line="93" selection-start-column="28" selection-end-line="96" selection-end-column="131" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="typing-animation.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/typing-animation.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="135" column="4" selection-start-line="135" selection-start-column="4" selection-end-line="136" selection-end-column="17" />
+            <state relative-caret-position="399">
+              <caret line="123" column="86" selection-start-line="123" selection-start-column="86" selection-end-line="123" selection-end-column="86" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,17 +39,17 @@
       <file leaf-file-name="icons.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/icons.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="93" column="131" selection-start-line="93" selection-start-column="131" selection-end-line="93" selection-end-column="131" />
+            <state relative-caret-position="331">
+              <caret line="119" column="86" selection-start-line="119" selection-start-column="86" selection-end-line="119" selection-end-column="86" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="truelife-fitness.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="truelife-fitness.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/truelife-fitness.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="97" column="131" selection-start-line="97" selection-start-column="131" selection-end-line="97" selection-end-column="131" />
+            <state relative-caret-position="418">
+              <caret line="241" column="86" selection-start-line="241" selection-start-column="86" selection-end-line="241" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -88,7 +74,6 @@
       <find>logo</find>
       <find>.banner</find>
       <find>.main-title h1:before</find>
-      <find>.fa</find>
       <find>fa</find>
       <find>#fa</find>
       <find>i.fa</find>
@@ -100,6 +85,10 @@
       <find>.generic-blo</find>
       <find>about</find>
       <find>work</find>
+      <find>.fa</find>
+      <find>.fa</find>
+      <find>.socia</find>
+      <find>.social</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -122,10 +111,10 @@
         <option value="$PROJECT_DIR$/liz/truelife-fitness.html" />
         <option value="$PROJECT_DIR$/css/typing-animation.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/chips.html" />
-        <option value="$PROJECT_DIR$/icons.html" />
         <option value="$PROJECT_DIR$/truelife-fitness.html" />
+        <option value="$PROJECT_DIR$/icons.html" />
+        <option value="$PROJECT_DIR$/chips.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -209,11 +198,12 @@
       <workItem from="1551116603867" duration="13253000" />
       <workItem from="1551202982937" duration="81000" />
       <workItem from="1551203294107" duration="1434000" />
+      <workItem from="1551205332594" duration="2069000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47204000" />
+    <option name="totallyTimeSpent" value="49273000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -298,36 +288,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="135" column="4" selection-start-line="135" selection-start-column="4" selection-end-line="136" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="178" column="51" selection-start-line="178" selection-start-column="51" selection-end-line="178" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chips.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="96" column="131" lean-forward="true" selection-start-line="93" selection-start-column="28" selection-end-line="96" selection-end-column="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/icons.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="93" column="131" selection-start-line="93" selection-start-column="131" selection-end-line="93" selection-end-column="131" />
+        <state relative-caret-position="-4201">
+          <caret line="514" selection-start-line="514" selection-end-line="514" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/truelife-fitness.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="97" column="131" selection-start-line="97" selection-start-column="131" selection-end-line="97" selection-end-column="131" />
+        <state relative-caret-position="418">
+          <caret line="241" column="86" selection-start-line="241" selection-start-column="86" selection-end-line="241" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/icons.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="119" column="86" selection-start-line="119" selection-start-column="86" selection-end-line="119" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chips.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="123" column="86" selection-start-line="123" selection-start-column="86" selection-end-line="123" selection-end-column="86" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="200" column="74" selection-start-line="200" selection-start-column="74" selection-end-line="200" selection-end-column="74" />
         </state>
       </provider>
     </entry>
