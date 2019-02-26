@@ -2,7 +2,7 @@ jQuery(function($){
     $("#desktop-nav").menuScroll();
 });
 
-// COPY THE FOLLOWING FUNCTION INTO ANY SCRIPTS
+
 jQuery.fn.extend({
     menuScroll: function() {
         // Declare all global variables
@@ -84,5 +84,8 @@ jQuery.fn.extend({
 
     // input text for typing animation
     $("#holder").writeText("WEB DESIGNER + FRONT-END DEVELOPER");
+
+
+
 
 
